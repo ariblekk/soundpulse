@@ -10,6 +10,7 @@ Daftar teman-teman komunitas yang telah berkontribusi melaporkan bug, performa, 
 | ---------------- | ------------------------------------------------------------------------------------------------------------------ |
 | **Romy Jatmiko** | `fix(auth)`: Refactor auth middleware untuk akses katalog & streaming di Guest Mode (25-10-2026)                   |
 | **Ridwan Saidi** | `feat(player)`: Handle lifecycle `onTaskRemoved` untuk terminate audio service saat recent apps swipe (25-10-2026) |
+| **Ridwan Saidi** | `fix(queue)`: Laporan bug desync antrean lagu (clear/remove/seek) & aksi rebuild queue (25-10-2026)                |
 
 ---
 

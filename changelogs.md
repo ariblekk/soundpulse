@@ -6,6 +6,19 @@ Format berkas mengikuti prinsip [Keep a Changelog](https://keepachangelog.com/id
 
 ---
 
+## [1.0.2] - 2026-10-25
+
+### ✨ Added
+- **Queue Rebuild Action**: Tombol aksi `REBUILD` di samping tombol clear pada header antrean pemutaran untuk membuat ulang antrean rekomendasi lagu secara dinamis dari lagu yang sedang diputar.
+- **Clear Queue Confirmation Dialog**: Dialog konfirmasi peringatan (`AppAlertDialog`) sebelum mengosongkan antrean lagu untuk mencegah aksi hapus yang tidak disengaja.
+
+### 🐛 Fixed & Improved
+- **Queue & Audio Player Synchronization**: Mengatasi desinkronisasi `ConcatenatingAudioSource` dengan antrean saat `clearQueue()`, penghapusan lagu aktif pada `removeFromQueue()`, serta penanganan `addToQueue()` saat player belum aktif (*reported by Ridwan Saidi*).
+- **Seamless Queue Item Seeking**: Mengetuk lagu di bottom sheet antrean kini langsung melompat (*seek*) ke indeks lagu tanpa menghancurkan dan memuat ulang seluruh playlist audio source dari awal.
+- **Batch Refill & Shuffle Prefetch**: Pengisian ulang antrean rekomendasi radio kini menggunakan operasi batch `addAll`, dan penentuan prefetch lagu berikutnya kini mengikuti indeks pemutar saat mode shuffle aktif.
+
+---
+
 ## [1.0.1] - 2026-10-25
 
 ### ✨ Added
