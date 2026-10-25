@@ -6,9 +6,10 @@ Terima kasih kepada seluruh anggota komunitas yang telah meluangkan waktu untuk 
 
 Daftar teman-teman komunitas yang telah berkontribusi melaporkan bug, performa, atau UI/UX:
 
-| Nama / Handle    | Kontribusi                                                                                                                                                                                                           | Tanggal    |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| **Romy Jatmiko** | Melaporkan issue HTTP 401 Unauthorized pada Mode Tamu (_Guest Mode_) yang berujung pada refactoring middleware autentikasi server agar fitur katalog musik, pencarian, dan streaming audio dapat diakses tanpa login | 2026-10-25 |
+| Nama / Handle    | Kontribusi                                                                                                                                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Romy Jatmiko** | Melaporkan issue HTTP 401 Unauthorized pada Mode Tamu (_Guest Mode_) yang berujung pada refactoring middleware autentikasi server agar fitur katalog musik, pencarian, dan streaming audio dapat diakses tanpa login (25-10-2026) |
+| **Ridwan Saidi** | Menyarankan peningkatan UX untuk menghentikan pemutaran audio, notifikasi media, dan layanan latar belakang secara otomatis saat aplikasi ditutup dari Recent Apps (25-10-2026)                                                 |
 
 ---
 
