@@ -6,6 +6,25 @@ Format berkas mengikuti prinsip [Keep a Changelog](https://keepachangelog.com/id
 
 ---
 
+## [1.0.3] - 2026-10-26
+
+### ✨ Added
+- **Synchronized Lyrics with `lrc.red`**: Integrasi lirik tersinkronisasi dengan parser LRC multi-timestamp, penyorotan baris aktif secara real-time, dan fitur tap-to-seek langsung ke posisi waktu baris lirik.
+- **Interactive Lyrics Controls**: Seekbar interaktif dengan scrubber responsif dan tombol play/pause di bagian bawah layar lirik untuk kontrol pemutaran langsung.
+- **Keep Screen Awake on Lyrics**: Layar lirik secara otomatis menjaga layar perangkat tetap menyala (*keep screen awake*) selama lagu diputar melalui Android native platform channel.
+- **Smooth Lyrics Transitions**: Transisi cross-fade lembut (`AnimatedSwitcher`) antar-lagu di layar lirik dan auto-scroll presisi berbasis kurva kubik (`easeInOutCubic`) bebas jitter tipografi.
+- **Provider Credits & Attribution**: Atribusi teks untuk penyedia lirik sesuai pedoman lrc.red serta pembaruan section Credits di dialog About Settings (lrc.red, Spotify, YouTube Music).
+
+### ⚡ Performance & Optimization
+- **Optimized Artwork Resolution**: Menurunkan resolusi cover Spotify ke ukuran medium (200px–450px) dan membatasi ukuran decoding memori (`cacheWidth`) di Flutter untuk mempercepat pemuatan halaman dan efisiensi kuota.
+
+### 🐛 Fixed & Improved
+- **LRC Timestamp Sanitization**: Pembersihan menyeluruh kebocoran format waktu `[mm:ss.xx]`, `[mm:ss:xx]`, tag metadata `[ar:...]`, dan tag word-level `<...>` dari teks baris yang ditampilkan ke pengguna.
+- **Dynamic Track Change Synchronization**: Memperbaiki bug di mana layar lirik terkunci di lagu sebelumnya saat antrean berpindah lagu secara otomatis maupun manual.
+- **Player Modal Cleanup**: Menghilangkan kartu foto dan nama artis berulang di bawah card cuplikan lirik pada modal pemutar utama.
+
+---
+
 ## [1.0.2] - 2026-10-25
 
 ### ✨ Added
