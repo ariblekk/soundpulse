@@ -1,0 +1,34 @@
+# Subprojects
+backend/
+mobile/
+
+# Dependencies
+node_modules/
+backend/venv/
+backend/env/
+backend/.venv/
+
+# Environment files
+.env
+.env*.local
+backend/.env
+frontend/.env*.local
+
+# Next.js build
+frontend/.next/
+frontend/out/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Build artifacts
+*.tsbuildinfo
+
+# Local tool config
+.opencode/
+.claude/settings.local.json
+
+# OS files
+.DS_Store
+Thumbs.db

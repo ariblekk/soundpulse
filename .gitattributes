@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Shell scripts harus LF supaya shebang tetap jalan di container
+*.sh text eol=lf
