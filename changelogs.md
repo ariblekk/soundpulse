@@ -22,6 +22,7 @@ Format berkas mengikuti prinsip [Keep a Changelog](https://keepachangelog.com/id
 - **Guest Mode Authentication**: Refactoring middleware otentikasi server agar mode tamu dapat mencari katalog lagu, melihat tangga lagu, dan streaming audio tanpa hambatan HTTP 401 (*reported by Romy Jatmiko*).
 - **Task Removal Lifecycle**: Terminasi pemutar audio, notifikasi media, dan Android Foreground Service seketika aplikasi ditutup dari Recent Apps (*suggested by Ridwan Saidi*).
 - **Daily Midnight Chart Cache**: Kebijakan refresh cache Top 50 di database PostgreSQL diubah menjadi harian tepat pukul 00:00 waktu server dengan proteksi fallback data lokal.
+- **Optimized Home History**: Rail riwayat putar (*Recently played*) di halaman Home dibatasi 10 lagu terbaru untuk performa render yang lebih ringan dan konsisten dengan rail Top 10 Chart.
 
 ---
 
