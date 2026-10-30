@@ -1,0 +1,44 @@
+{
+  "contributors": [
+    {
+      "name": "ariblekk",
+      "role": "Creator & Lead Dev",
+      "avatar_url": "https://github.com/ariblekk.png",
+      "github_url": "https://github.com/ariblekk"
+    },
+    {
+      "name": "Romy Jatmiko",
+      "role": "Bug Hunter & Auth Middleware",
+      "avatar_url": "https://api.dicebear.com/7.x/identicon/svg?seed=Romy%20Jatmiko",
+      "github_url": "https://github.com/romyjatmiko"
+    },
+    {
+      "name": "Ridwan Saidi",
+      "role": "Bug Hunter & Audio Lifecycle",
+      "avatar_url": "https://api.dicebear.com/7.x/identicon/svg?seed=Ridwan%20Saidi",
+      "github_url": "https://github.com/ridwansaidi"
+    }
+  ],
+  "credits": [
+    {
+      "name": "AndroidX Media3",
+      "role": "Audio Playback Engine",
+      "url": "https://github.com/androidx/media"
+    },
+    {
+      "name": "YouTube InnerTube",
+      "role": "Audio Stream & Metadata",
+      "url": "https://github.com"
+    },
+    {
+      "name": "Coil 3",
+      "role": "Image Loading & Cache",
+      "url": "https://github.com/coil-kt/coil"
+    },
+    {
+      "name": "Material3 Expressive",
+      "role": "UI Primitives & Motion",
+      "url": "https://m3.material.io"
+    }
+  ]
+}
